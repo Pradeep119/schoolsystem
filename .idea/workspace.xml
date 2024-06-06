@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a49c2cb2-a339-41f1-a429-054cf76299a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/main/java/com/atse/attendance_service/AttendanceServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/main/java/com/atse/attendance_service/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/main/java/com/atse/attendance_service/controller/AttendanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/main/java/com/atse/attendance_service/dto/StudentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/main/java/com/atse/attendance_service/model/AttendanceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/main/java/com/atse/attendance_service/repository/AttendanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/main/java/com/atse/attendance_service/service/AttendanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance-service/src/test/java/com/atse/attendance_service/AttendanceServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/CoreServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/controller/CoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/dto/ClassRoomDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/dto/StudentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/dto/SubjectDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/dto/TeacherDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/model/ClassRoomEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/model/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/model/StudentSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/model/StudentSubjectId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/model/SubjectEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/model/TeacherEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/repository/ClassRoomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/repository/SubjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/repository/TeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/service/ClassRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/service/CoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/com/atse/core_service/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/test/java/com/atse/core_service/CoreServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-service/src/test/java/com/atse/core_service/controller/StudentControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2hViZfVPIHa1riTsJOthBHyjodz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AttendanceServiceApplication.executor": "Run",
+    "Application.CoreServiceApplication.executor": "Run",
+    "Maven.schoolsystem [clean,verify].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/pradeepk/Documents/MSc/Modules/ATSE/Assignment3/Repo/schoolsystem",
+    "onboarding.tips.debug.path": "/home/pradeepk/Documents/MSc/Modules/ATSE/Assignment3/Repo/schoolsystem/src/main/java/com/atse/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CoreServiceApplication">
+    <configuration name="AttendanceServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atse.attendance_service.AttendanceServiceApplication" />
+      <module name="attendance-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atse.attendance_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atse.core_service.CoreServiceApplication" />
+      <module name="core-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atse.core_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AttendanceServiceApplication" />
+        <item itemvalue="Application.CoreServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a49c2cb2-a339-41f1-a429-054cf76299a5" name="Changes" comment="" />
+      <created>1717685703898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717685703898</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atse/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
